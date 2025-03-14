@@ -39,3 +39,13 @@ let limpiarLista = document.getElementById("listaAmigos");
 limpiarLista.innerHTML = "";
 
 }
+//-----Función para regresar a las condiciones iniciales con botón adicional---------
+function nuevaLista(){
+    let reiniciar = document.getElementById("reiniciar");
+    if(amigo.length !='') {
+        location.reload();
+        amigos.splice(0,amigo.length);
+    } else {
+        alert(" La lista se encuentra vacía");
+    }
+}
