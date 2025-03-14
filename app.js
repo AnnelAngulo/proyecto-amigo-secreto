@@ -25,5 +25,17 @@ function cargaAmigos() {
         item.textContent = amigo[i];
         listaAmigos.appendChild(item);
     }
+}
+//------- Función para sortear nombre de amigo -------------------
+function sortearAmigo() {
+    if (amigo.length === 0) {
+        alert ("No hay Amigos para realizar el Sorteo");
+        return;
+    }
+let amigoSorteado = amigo[Math.floor(Math.random() * amigo.length)];
+let resultado = document.getElementById("resultado");
+resultado.innerHTML = ` El Amigo Sorteado es : ${amigoSorteado}`;
+let limpiarLista = document.getElementById("listaAmigos");
+limpiarLista.innerHTML = "";
 
 }
