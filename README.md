@@ -1,7 +1,7 @@
 # PROYECTO AMIGO SECRETO
 
 <h1>Introducción:</h1>
-El objetivo de este proyecto es crear una aplicación donde se puedan ingresar los nombres de los amigos que participarán en la dinámica de “Amigo secreto” y asignar de manera aleatoria un nombre para poner en práctica los conocimientos básicos de Lógica de Programación. Cabe destacar que el lenguaje de programación que se utilizó fue Java Script por lo que todos los ejemplos aca visualizados hacen referencia a eso.
+El objetivo de este proyecto fué crear una aplicación donde se puedan ingresar los nombres de los amigos que participarán en la dinámica de “Amigo secreto” y asignar de manera aleatoria un nombre para poner en práctica los conocimientos básicos de Lógica de Programación. Cabe destacar que el lenguaje de programación que se utilizó fue Java Script por lo que todos los ejemplos aca visualizados hacen referencia a eso.
 
 Se partió de una app base que mostraba el estilo predeterminado y una configuración de elementos visibles como botones y campos de texto que aun no podían ser usados por el usuario pues carecía de código. De esta forma se procedió a trabajar en Visual Studio Code para configurar algunas funciones.
 ![image](https://github.com/user-attachments/assets/840ee795-f76c-4f27-ba51-3a1f13d60ef8)
